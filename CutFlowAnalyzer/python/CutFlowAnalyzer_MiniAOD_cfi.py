@@ -32,10 +32,10 @@ cutFlowAnalyzer = cms.EDAnalyzer('CutFlowAnalyzer_MiniAOD',
     Propagator = cms.string("RungeKuttaTrackerPropagator"),
     skimOutput = cms.bool(False),
     signalHltPaths = cms.vstring(
-    'HLT_TrkMu12_DoubleTrkMu5NoFiltersNoVtx',
-    'HLT_Mu18_Mu9_SameSign',
-    'HLT_DoubleL2Mu23NoVtx_2Cha',
+    'HLT_TripleMu_10_5_5_DZ',
     'HLT_TripleMu_12_10_5',
+    'HLT_TripleMu_5_3_3_Mass3p8to60_DZ',
+    'HLT_TrkMu12_DoubleTrkMu5NoFiltersNoVtx'
     ),
     #PS=1 MET trigger in MET dataset 2018
     orthogonalHltPaths = cms.vstring(
